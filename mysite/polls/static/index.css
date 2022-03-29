@@ -1,0 +1,171 @@
+/* カスタムプロパティ */
+:root {
+  /* メインカラー */
+  --main-color: #C7BEA8;
+
+}
+/* ヘッダー */
+header{
+    z-index: 9999;
+    background-color: #212836;
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+header .title{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing:2px;
+}
+
+header .text{
+    text-align: left;
+    padding: 20px 0px 12px 60px;
+}
+
+.HeaderList{
+    margin-top: -20px;
+    /* margin-right: 10%; */
+    display: flex;
+    flex-direction :row-reverse;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+header a {
+    transition: .3s; /* 変化時間 0.3秒 */
+    padding: 24px 60px; /* 内側の余白設定 */
+    text-decoration: none; /* aタグの下線を非表示に */
+    color: #fff; 
+    font-size: 8px; 
+    position: relative;
+    bottom: 15px;
+}
+
+header a:hover{
+    color: #111;
+    background-color:var(--main-color) ;
+}
+/* ヘッダー終わり */
+/* メイン */
+
+
+
+
+#home .color_bars{
+    background-color:var(--main-color) ;
+    padding-top: 65px;
+}
+
+
+/* ここから */
+
+#home .container  { 
+  width: 100%;
+  z-index: 0;
+  padding-bottom: 300px;
+  height: 100vh;
+  background-color:var(--main-color) ;
+  position: relative; 
+
+}
+
+
+.image {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 30s infinite;
+}
+
+.image:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+	animation-delay: 6s;
+}
+.image:nth-of-type(3) {
+	animation-delay: 12s;
+}
+.image:nth-of-type(4) {
+	animation-delay: 18s;
+}.image:nth-of-type(5) {
+	animation-delay: 24s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	15%{ opacity: 1;}
+	25%{ opacity: 1;}
+	30%{ opacity: 0;}
+	100%{ opacity: 0;}
+}
+
+.store{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:300px;
+  padding-bottom:300px;
+  background-color:var(--main-color) ;
+
+}
+
+.human{
+  width: 500px;
+  height: 500px;
+}
+
+.store h1{
+  padding: 30px;
+  font-size: 30px;
+}
+
+
+
+
+  /* メイン終わり */
+/* フッター */
+footer{
+  color: #fff;
+  background-color: #212836;
+  height: 220px;
+}
+
+
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+footer h1{
+  font-size: 20px;
+  padding: 40px 0px 40px 60px;
+  
+}
+
+footer .foot p{
+  margin-top: 50px;
+}
+
+footer .foot .line {
+  display: block;
+  content: "";
+  margin: 18px 0;
+  }
+
+footer h1{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0px;
+  background-color: #212836;
+  font-size: 24px;
+}
+
+footer .foot span{
+  font-size: 20px;
+}
+
+/* フッター終わり */
