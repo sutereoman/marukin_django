@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
-<link rel="stylesheet" href="../polls/static/index.css">
+<link rel="stylesheet" href="../static/css/index.css">
 {% include "header.html" %}
 
-<main>
+<main> 
+
   <div id="home">
       <div class="color_bars"></div>
       <div class="container">
@@ -14,13 +15,96 @@
         <img class="image" src="../static/img/h9.jpg" />
 
       </div>
+
+    <h1 class="sub_title">丸金とは</h1>
     <div class="store">
-      <img class="human" src="../static/img/LINE1.jpg" alt="">
-      <h1>あああああああとは</h1>
-      <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Odio tempore pariatur, ex distinctio at placeat? Quam officiis eius cum harum.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, hic!</p>
+      <img class="human" src="../static/img/v2.jpg" alt="">
+      <p>上板町にある鉄板焼き屋です<br>上の画像は仮です、店長かおっちゃんの画像でも入れたらいいんじゃねって感じです<br>店長なんか文章考えといて</p>
     </div>
+
+    
+
+    <h1 class="sub_title" >お知らせ</h1>
+      <div class="news_content">  
+        <p>シロクマってなんとなく漢字で書くの抵抗あるよね</p>
+        <p>食物繊維を取りましょう</p>
+        <p>新メニューです</p>
+        <p>2022営業時間のお知らせ</p>
+      </div>  
+      <div class="btn">
+        <a href="/news" class="skip_btn">もっと詳しく</a>
+      </div>
+
+
+    
+
+
+
+    <h1 class="sub_title">メニュー</h1>
+
+    <div class="eat_list">
+      <div class="eat" id="okonomiyaki">
+        <img class="eat_img" src="../static/img/outside2.jpg" alt="">
+        <div class="eat_text">
+          <h1 class="eat_title">お好み焼き</h1>
+          <p class="eat_subtitle">イカ、ネギ、ブタ、モチ、チーズ、こんにゃく<br>具材には多種多様なものを取り揃えています<br>メニューに無いものもお気軽にご相談ください</p>
+        </div>
+      </div>
+
+      <div class="eat" id="yakisoba">
+        <img class="eat_img" src="../static/img/outside2.jpg" alt="">
+        <div class="eat_text">
+          <h1 class="eat_title">焼きそば・焼うどん</h1>
+          <p class="eat_subtitle">焼きそばはそばを焼いているから焼きそば<br>焼うどんはうどんを焼いているから焼うどん<br>いずれも麺類です</p>
+        </div>
+      </div>
+
+      <div class="eat" id="sasimi">
+        <img class="eat_img" src="../static/img/outside2.jpg" alt="">
+        <div class="eat_text">
+          <h1 class="eat_title">刺身</h1>
+          <p class="eat_subtitle">イカ刺身、馬刺し<br>イカ刺身、馬刺し<br>イカ刺身、馬刺し</p>
+        </div>
+      </div>
+
+      <div class="eat" id="nabe">
+        <img class="eat_img" src="../static/img/outside2.jpg" alt="">
+        <div class="eat_text">
+          <h1 class="eat_title">鍋料理</h1>
+          <p class="eat_subtitle">冬はやっぱり鍋ですね<br>栄養満点<br>みんなで暖まりましょう</p>
+        </div>
+      </div>
+
+      <div class="eat" id="special">
+        <img class="eat_img" src="../static/img/outside2.jpg" alt="">
+        <div class="eat_text">
+          <h1 class="eat_title">名付け親メニュー</h1>
+          <p class="eat_subtitle">新メニュー<br>考えてみて<br>採用されたときは<span class="red_name">アナタ</span>の名前、お付けします</p>
+        </div>
+      </div>
+    </div>
+    <div class="btn">
+      <a href="/menu" class="skip_btn">もっと詳しく</a>
+    </div>
+
+    <h1 class="sub_title" >店舗案内</h1>
+    <iframe class="shop_map" width="900" height="600"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13212.287613205472!2d134.397952!3d34.1189089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb55c3b67718f54f!2z44GK5aW954S85Li46YeR!5e0!3m2!1sja!2sjp!4v1643939437369!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="btn">
+      <a href="/map" class="skip_btn">もっと詳しく</a>
+    </div>
+
+
+
+
+
+    
+    <h1 class="sub_title" id="last">もっと丸金のことが知りたくなったら</h1>
+    <div class="btn">
+      <a href="/gallery" class="skip_btn">ここをクリック</a>
+    </div>
+ 
+ 
+ 
   </div>
 </main>
-
-
   {% endblock %}

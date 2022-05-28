@@ -1,0 +1,113 @@
+/* カスタムプロパティ */
+:root {
+  /* メインカラー */
+  --main-color: #ECDCC5;
+
+}
+
+header{
+    background-color: #212836;
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+header .title{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing:2px;
+}
+
+header .text{
+    text-align: left;
+    padding: 20px 0px 12px 60px;
+}
+
+.HeaderList{
+    margin-top: -20px;
+    display: flex;
+    flex-direction :row-reverse;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+header a {
+    transition: .3s; /* 変化時間 0.3秒 */
+    padding: 24px 60px; /* 内側の余白設定 */
+    text-decoration: none; /* aタグの下線を非表示に */
+    color: #fff; 
+    font-size: 8px; 
+    position: relative;
+    bottom: 15px;
+}
+
+header a:hover{
+    color: #111;
+    background-color:var(--main-color); 
+}
+/* ヘッダー終わり */
+
+main{
+    background-color: var(--main-color);
+}
+
+.shop_map{
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0px 100px 0px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* フッター */
+footer{
+  color: #fff;
+  background-color: #212836;
+  height: 220px;
+}
+
+
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+footer h1{
+  font-size: 20px;
+  padding: 40px 0px 40px 60px;
+  
+}
+
+footer .foot p{
+  margin-top: 50px;
+}
+
+footer .foot .line {
+  display: block;
+  content: "";
+  margin: 18px 0;
+  }
+
+footer h1{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0px;
+  background-color: #212836;
+  font-size: 24px;
+}
+
+footer .foot span{
+  font-size: 20px;
+}
+
+/* フッター終わり */
