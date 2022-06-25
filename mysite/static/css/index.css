@@ -120,14 +120,13 @@ main{
   padding: 80px 0px 100px 30%;
   margin:60px 0px 40px 0px;
   text-align: left; 
-  background-image: url(../img/outside2.jpg);
+  /* background-image: url(../img/outside2.jpg); */
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
 }
 .news_content p{
   padding-top:30px;
   margin-bottom:30px;
-  color: #fff;
   font-size: 20px;
 }
 
@@ -149,29 +148,47 @@ main{
 
 
 /* メニューリスト */
+
 .eat_list{
-  padding-left: 20%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 140px;
 }
+
 .eat{
   display: flex;
   justify-content: space-between;
-  padding:80px 10% 80px 10%;
+  flex-direction:column;
 }
 .eat_img{
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
 }
 .eat_text{
   display: flex;
   flex-direction:column;
 }
 .eat_title{
-  margin:100px;
+  margin:50px;
   font-size: 30px;
 }
 .eat_subtitle{
   line-height:40px;
 }
+
+.eat_name{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.eat_name_img{
+  height: 300px;
+  width: 300px;
+  margin-right: 200px;
+}
+
+
+
 .red_name{
   color: red;
 }
@@ -179,9 +196,9 @@ main{
   padding: 60px 0px 20px 0px;
 }
 /* テレコにする */
-.eat:nth-child(even) {
+/* .eat:nth-child(even) {
   flex-direction: row-reverse;
-}
+} */
 
 
 /*店舗案内  */
@@ -216,8 +233,9 @@ main{
   box-shadow    : none;        /* カーソル時の影消去 */
   opacity       : 0.8;         /* カーソル時透明度 */
 }
-.btn{
+.more_btn{
   text-align:center;
+  padding: 80px;
 }
 #last{
   margin-bottom: 100px;
