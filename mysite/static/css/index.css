@@ -70,7 +70,11 @@ main{
 #home .container  { 
   width: 100%;
   z-index: 0;
+<<<<<<< HEAD
   margin-bottom: 30%;
+=======
+  margin-bottom: 600px;
+>>>>>>> refs/remotes/origin/main
   height: 100vh;
   position: relative; 
 
