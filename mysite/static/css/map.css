@@ -51,18 +51,81 @@ header a:hover{
 main{
     background-color: var(--main-color);
 }
+main h1{
+  font-size: 30px;
+  padding:140px 0px 40px 0px;
+}
+main p{
+  padding: 20px;
+}
 
-.shop_map{
-    display: block;
-    margin: 0 auto;
-    padding: 100px 0px 100px 0px;
-    max-width: 100%;
+
+/* 店舗情報 */
+.inf{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 20px;
+}
+
+.inf h2{
+  padding: 30px;
+  font-size: 20px;
+}
+.inf p{
+  padding: 5px;
+  margin-bottom: 60px;
+}
+
+
+/* 道案内 */
+.map{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 20px;
+}
+
+.map_shop{
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 100%;
 }
 
 
 
+/* 駐車場 */
+.parking{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 20px;
+}
+.parking_img{
+  width: 800px;
+  height: 600px;
+  padding: 40px;
+
+}
 
 
+.shop_in{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 20px;
+}
+.in_img{
+  width: 600px;
+  height: 600px;
+  padding: 40px;
+
+}
+
+.last_img{
+  padding-bottom: 200px;
+}
 
 
 

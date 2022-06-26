@@ -70,7 +70,7 @@ main{
 #home .container  { 
   width: 100%;
   z-index: 0;
-  margin-bottom: 600px;
+  margin-bottom: 30%;
   height: 100vh;
   position: relative; 
 
@@ -212,12 +212,12 @@ main{
 .skip_btn{
   margin: 10px 0px 200px 0px;
   display       : inline-block;
-  border-radius : 5%;          /* 角丸       */
+
   font-size     : 18pt;        /* 文字サイズ */
   text-align    : center;      /* 文字位置   */
   cursor        : pointer;     /* カーソル   */
   padding       : 40px 60px;   /* 余白       */
-  background    : #ffa64d;     /* 背景色     */
+  background    : #eeb073;     /* 背景色     */
   color         : #ffffff;     /* 文字色     */
   line-height   : 1em;         /* 1行の高さ  */
   opacity       : 1;           /* 透明度     */
