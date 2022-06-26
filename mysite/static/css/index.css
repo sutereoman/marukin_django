@@ -195,10 +195,7 @@ main{
 .eat_list{
   padding: 60px 0px 20px 0px;
 }
-/* テレコにする */
-/* .eat:nth-child(even) {
-  flex-direction: row-reverse;
-} */
+
 
 
 /*店舗案内  */
