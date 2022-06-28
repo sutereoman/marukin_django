@@ -50,6 +50,10 @@
   }
   /* ヘッダー終わり */
   /* メイン */
+  main{
+    background-color: var(--main-color);
+}
+
   
   
   
@@ -61,10 +65,42 @@
   
   
   /* ここから */
+  main h1{
+    font-size: 30px;
+    padding:140px 0px 40px 0px;
+  }
+  main p{
+    padding: 20px;
+  }
+  .food{
+  padding:140px 0px 40px 0px;
+    
+  }
+  .eat_img{
+    height: 500px;
+    width: 500px;
+  }
   
-  
-  
-  
+  .okonomiyaki{
+    display: flex;
+    justify-content:space-around;
+  }
+  .yakisoba{
+    display: flex;
+    justify-content:space-around;
+  }
+  .sasimi{
+    display: flex;
+    justify-content:space-around;
+  }
+  .nabe{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 80px;
+  }
+
+
+
   
   
   

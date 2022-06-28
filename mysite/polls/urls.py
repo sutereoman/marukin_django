@@ -6,5 +6,6 @@ urlpatterns = [
     path('menu/', views.menu_template, name='menu_template'),
     path('map/', views.map_template, name='map_template'),
     path('gallery/', views.gallery_template, name='gallery_template'),
-
+    path('news/', views.gallery_template, name='news_template'),
+    
 ]
